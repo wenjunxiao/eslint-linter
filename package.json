@@ -1,0 +1,16 @@
+{
+  "name": "eslint-linter",
+  "version": "6.0.1",
+  "description": "eslint linter for browser and node",
+  "main": "lib/eslint.js",
+  "scripts": {
+    "build": "node Makefile.js build",
+    "commit": "node Makefile.js commit"
+  },
+  "author": "Wenjun Xiao",
+  "license": "MIT",
+  "devDependencies": {
+    "shelljs": "^0.8.3",
+    "eslint": "^6.0.1"
+  }
+}
